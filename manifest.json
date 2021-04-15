@@ -1,0 +1,23 @@
+{
+  "name": "BigBlueButton Audio Control",
+  "description": "Changes the audio volume in big blue button",
+  "version": "1.0",
+  "manifest_version": 3,
+  "author": "Thomas Kerber",
+  "permissions": ["storage", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/images/sound16.png",
+      "32": "/images/sound32.png",
+      "48": "/images/sound48.png",
+      "128": "/images/sound128.png"
+    }
+  },
+  "icons": {
+    "16": "/images/sound16.png",
+    "32": "/images/sound32.png",
+    "48": "/images/sound48.png",
+    "128": "/images/sound128.png"
+  }
+}
