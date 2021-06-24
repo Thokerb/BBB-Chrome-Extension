@@ -26,3 +26,12 @@ function setAudio() {
   
   });
 }
+
+// set audiocontrol to current audioValue on reopen
+window.onload = () => {
+  chrome.storage.sync.get("audioValue", ({ audioValue }) => {
+    if(audioValue !== null && changeColor !== null) {
+      changeColor.value = audioValue;
+    }
+  });
+}
